@@ -1,0 +1,11 @@
+
+.ic-at:before { content: '\e800'; } /* '' */
+.ic-youtube:before { content: '\e801'; } /* '' */
+.ic-twitter:before { content: '\f099'; } /* '' */
+.ic-facebook:before { content: '\f09a'; } /* '' */
+.ic-instagram:before { content: '\f16d'; } /* '' */
+.ic-vkontakte:before { content: '\f189'; } /* '' */
+.ic-yelp:before { content: '\f1e9'; } /* '' */
+.ic-odnoklassniki:before { content: '\f263'; } /* '' */
+.ic-yandex:before { content: '\f305'; } /* '' */
+.ic-gplus:before { content: '\f30f'; } /* '' */
