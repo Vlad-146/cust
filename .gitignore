@@ -1,23 +1,19 @@
-# ignore everything in the root except the "wp-content" directory.
-!wp-content/
+# Created by https://www.gitignore.io/api/linux
+# Edit at https://www.gitignore.io/?templates=linux
 
-# ignore everything in the "wp-content" directory, except:
-# "mu-plugins", "plugins", "themes" directory
-wp-content/*
-!wp-content/mu-plugins/
-!wp-content/plugins/
-!wp-content/themes/
+### Linux ###
+*~
 
-# ignore these plugins
-wp-content/plugins/hello.php
+# temporary files which can be created if a process still has a handle open of a deleted file
+.fuse_hidden*
 
-# ignore specific themes
-wp-content/themes/twenty*/
+# KDE directory preferences
+.directory
 
-# ignore node dependency directories
-node_modules/
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
 
-# ignore log files and databases
-*.log
-*.sql
-*.sqlite
+# .nfs files are created when an open file is removed but is still being accessed
+.nfs*
+
+# End of https://www.gitignore.io/api/linux
